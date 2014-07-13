@@ -11,4 +11,6 @@
 @property (nonatomic, retain) NSString *famousQuote;
 @property (nonatomic, retain) NSString *personName;
 
+- (void)awakeFromInsert;
+
 @end
